@@ -14,7 +14,7 @@ public class Maquina {
         aux = in.nextLine();
 
         //Crio um objeto da classe Conta, como a classe Conta esta dentro da classe abstrata Cliente
-        Cliente.Conta c1 = new Cliente.Conta(aux);
+        Conta c1 = new Conta(aux);
 
 
         //Apos ter um objeto da classe conta e possivel utilizar os metodos que criamos
